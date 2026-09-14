@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" style="background-color: yellow;border: 2px solid black; width: 500px;">
+        <tr>
+            <td colspan="2"style="text-align: center; color: red; background-color: white;">Phiếu Đăng Ký</td>
+        </tr>
+        <tr>
+            <div>
+        <td style="text-align: left;">Họ và Tên:</td>
+        <td> <input type="text" name="name" id="name"> </td>
+            </div>
+        </tr>
+        <tr>
+            <div>
+                <td style="text-align: left;">Địa chỉ:</td>
+                <td> <input type="text" name="address" id="address"> </td>
+            </div>
+        </tr>
+        <tr>
+            <div>
+                <td style="text-align: left;">Số điện thoại:</td>
+                <td> <input type="text" name="phone" id="phone"> </td>
+            </div>
+        </tr>
+        <tr>
+            <div>
+                <td style="text-align: left;">Phái:</td>
+                <td>
+                    <input type="radio" name="role" value="male">Nam
+                    <input type="radio" name="role" value="female">Nữ
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <td style="text-align: left;">Nghề Nghiệp:</td>
+            <td> <select>
+                <option value="student">Sinh Viên</option>
+                <option value="teacher">Giáo Viên</option>
+                <option value="engineer">Kỹ Sư</option>
+                <option value="other">Khác</option>
+                </select> </td>
+        </tr>
+        <tr>
+            <div>
+                <td style="text-align: left;">Lựa chọn sản phẩm tham gia:</td>
+                <td> <select>
+                    <option><value="sp1">Kem Đánh Răng</option>
+                    <option><value="sp2">Sữa Rửa Mặt</option>
+                    <option><value="sp3">Nước Súc Miệng</option>
+                </select>
+            </div>
+        </tr>
+        <tr>
+            <div>
+                <td style="text-align: left;">Số người dự đoán:</td>
+                <td> <input type="number" name="count" id="count"> </td>
+            </div>
+        </tr>
+        <tr>
+            <div>
+                <td colspan="2"style="text-align: center;"><input type="submit" value="Save"></td>
+            </div>
+        </tr>
+        </table>
+</body>
+</html>
